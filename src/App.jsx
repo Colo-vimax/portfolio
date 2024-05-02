@@ -9,10 +9,11 @@ import Skills from './components/Skills'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
 import Hero from './components/Hero'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div data-theme="dracula">
+    <div data-theme="light">
       <div>
         <Navbar />
         <Hero />
@@ -21,6 +22,7 @@ const App = () => {
         <Skills />
         <Experience />
         <Contact />
+        <Footer />
       </div>
       
     </div>
